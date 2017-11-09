@@ -8,6 +8,7 @@ body {
   color: seashell;
   background-color: black;
   text-align: center;
+  margin: 0;
 }
 
 .flex-container {
@@ -53,18 +54,18 @@ nav a {
   opacity: 0.9;
 }
 
-#jumbotron {
+#mission {
   background-image: url(../images/img-mission-background.jpg);
   height: 700px;
 }
 
-#jumbotron .content {
+#mission .content {
   background-color: black;
   width: 100%;
   margin: auto;
 }
 
-#jumbotron .content h2, h4 {
+#mission .content h2, h4 {
   margin: 15px auto;
 }
 
@@ -114,4 +115,14 @@ h2, h3, h4 {
   text-align: center;
   padding: 10px;
   margin: 5px 20px;
+}
+
+/* Footer Section */
+#imprint {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
 }
