@@ -76,7 +76,7 @@ nav a {
   padding-top: 60px;
 }
 
-#tea-section h2, h4 {
+h2, h3, h4 {
   margin: auto;
   padding: 10px;
   display: block;
@@ -96,4 +96,22 @@ nav a {
   padding: 5px;
   display: block;
   font-weight: bold;
+}
+
+/* Locations Section */
+
+#locations {
+  height: 500px;
+  padding-top: 60px;
+  background-image: url(../images/img-locations-background.jpg);
+  margin-top: 100px;
+}
+
+.location {
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  text-align: center;
+  padding: 10px;
+  margin: 5px 20px;
 }
