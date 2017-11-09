@@ -1,7 +1,9 @@
 /* Universal Settings */
-
+div {
+  border: 1px solid white;
+}
 body {
-  font-family: Helvetica sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
   background-color: black;
@@ -23,6 +25,7 @@ header {
   align-items: center;
   height: 69px;
   border-bottom: 1px solid seashell;
+  background-color: black;
 }
 
 header img {
@@ -36,7 +39,61 @@ nav {
 }
 
 nav a {
-  margin: auto 15px;
+  margin-right: 15px;
   color: seashell;
   font-family: Helvetica;
+}
+
+/* Main Section */
+
+.main {
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+  opacity: 0.9;
+}
+
+#jumbotron {
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+}
+
+#jumbotron .content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+#jumbotron .content h2, h4 {
+  margin: 15px auto;
+}
+
+/* Tea Section */
+
+#tea-section {
+  width: 1000px;
+  margin: auto;
+  padding-top: 60px;
+}
+
+#tea-section h2, h4 {
+  margin: auto;
+  padding: 10px;
+  display: block;
+}
+
+#tea-section img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item span {
+  padding: 5px;
+  display: block;
+  font-weight: bold;
 }
